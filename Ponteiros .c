@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/**1. Crie uma func¸ao que recebe como par ˜ ametro um n ˆ umero inteiro e devolve o seu dobro. */
+/**1. Crie uma funcÂ¸ao que recebe como par Ëœ ametro um n Ë† umero inteiro e devolve o seu dobro. */
 
 /*int dobrar(x){
 return (x+x);
@@ -14,7 +14,7 @@ scanf("%d",&x);
 printf("O DOBRO DO NUMERO EH %d",dobrar(x));
 }*/
 
-/**2. Fac¸a uma func¸ao que receba a data atual (dia, m ˜ es e ano em inteiro) e exiba-a na tela ˆ
+/**2. FacÂ¸a uma funcÂ¸ao que receba a data atual (dia, m Ëœ es e ano em inteiro) e exiba-a na tela Ë†
 no formato textual por extenso. Exemplo: Data: 01/01/2000, Imprimir: 1 de janeiro de
 2000.*/
 
@@ -35,8 +35,8 @@ aux = retorna(dia,mes,ano);
 printf("\n A DATA NO FORMATO TEXTUAL EH %d \n",aux);
 }*/
 
-/**3. Fac¸a uma func¸ao para verificar se um n ˜ umero ´ e positivo ou negativo. Sendo que o valor ´
-de retorno sera 1 se positivo, -1 se negativo e 0 se for igual a 0. ´*/
+/**3. FacÂ¸a uma funcÂ¸ao para verificar se um n Ëœ umero Â´ e positivo ou negativo. Sendo que o valor Â´
+de retorno sera 1 se positivo, -1 se negativo e 0 se for igual a 0. Â´*/
 
 /*int verifica(x){
 if(x==0){
@@ -71,9 +71,9 @@ printf("VALOR X :%d \n ENDERECO:%d",*p1,*p2);
 }*/
 
 /**1. Escreva um programa que declare um inteiro, um real e um char, e ponteiros para inteiro, real, e char.
-Associe as variaveis aos ponteiros (use &). Modifique os valores de ´
-cada variavel usando os ponteiros. Imprima os valores das vari ´ aveis antes e ap ´ os a ´
-modificac¸ao.*/
+Associe as variaveis aos ponteiros (use &). Modifique os valores de Â´
+cada variavel usando os ponteiros. Imprima os valores das vari Â´ aveis antes e ap Â´ os a Â´
+modificacÂ¸ao.*/
 
 /*int main (){
 int x=30,*px;
@@ -84,21 +84,21 @@ px = &x;
 py = &y;
 pz = &z;
 
-printf("\n VALOR ANTES DA MODIFICAÇAO :\n");
+printf("\n VALOR ANTES DA MODIFICAÃ‡AO :\n");
 printf("\n %d \n %c \n %f \n",x,y,z);
 
 *px = 50;
 *py = 'z';
 *pz = 30.2;
 
-printf("\n  VALOR APOS MODIFICAÇAO :\n");
+printf("\n  VALOR APOS MODIFICAÃ‡AO :\n");
 printf("\n %d \n %c \n %f \n",x,y,z);
 }
 
 */
 
-/**2. Escreva um programa que contenha duas variaveis inteiras. Compare seus enderec¸os e ´
-exiba o maior enderec¸o.*/
+/**2. Escreva um programa que contenha duas variaveis inteiras. Compare seus enderecÂ¸os e Â´
+exiba o maior enderecÂ¸o.*/
 
 /*int main (){
 int x=10,*px;
@@ -118,8 +118,8 @@ else{
 printf("\n O MAIOR ENDERECO EH %d \n",maior);
 }*/
 
-/**3. Escreva um programa que contenha duas variaveis inteiras. Leia essas vari ´ aveis do ´
-teclado. Em seguida, compare seus enderec¸os e exiba o conteudo do maior enderec¸o.*/
+/**3. Escreva um programa que contenha duas variaveis inteiras. Leia essas vari Â´ aveis do Â´
+teclado. Em seguida, compare seus enderecÂ¸os e exiba o conteudo do maior enderecÂ¸o.*/
 
 int main (){
 int x,y,*px,*py,maior;
